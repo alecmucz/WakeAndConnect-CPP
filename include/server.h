@@ -8,12 +8,14 @@
 #include <string>
 #include <unordered_map>
 
+
 using namespace std;
 struct DeviceInfo {
-    std::string IPaddress;
-    std::string Host;
-    std::string User;
-    std::string Mac;
+    string Host;
+    string IPaddress;
+    string User;
+    string port;
+    string Mac;
 };
 
 class Server {

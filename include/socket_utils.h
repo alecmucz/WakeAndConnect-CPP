@@ -5,6 +5,8 @@
 #ifndef WAKEANDCONNECT_SOCKET_UTILS_H
 #define WAKEANDCONNECT_SOCKET_UTILS_H
 
+using namespace std;
+
 int createSocket(const char* ipAddress, int port);
 int startServer(const char* ipAddress, int port);
 int acceptClient(int server_fd);
